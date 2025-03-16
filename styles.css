@@ -1,0 +1,16 @@
+.tiles {
+    display: inline-flex;
+}
+
+.tile {
+    width: 500px;
+    border-style: double;
+    border-radius: 10%;
+    border-width: 30px;
+    border-color: black;
+    background-color: aquamarine;
+    color: brown;
+    height: 200px;
+    margin: 20px;
+    text-align: center;
+}
