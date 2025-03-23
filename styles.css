@@ -1,5 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+
+.side-menu {
+    width: 350px;
+    height: 1500px;
+    border: 10px strong blue;
+    background-color: blueviolet;
+    color: wheat;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 800;
+    font-style: oblique;
+}
+
 .tiles {
-    display: inline-flex;
+    display: flex;
+    margin: 20px auto;
+    width: 1300px;
+    flex-wrap: wrap;
 }
 
 .tile {
@@ -12,5 +37,11 @@
     color: brown;
     height: 200px;
     margin: 20px;
+    text-align: center;
+    flex: 0 0 auto;
+    box-sizing: content-box;
+}
+
+h1 {
     text-align: center;
 }
